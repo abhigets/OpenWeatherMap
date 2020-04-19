@@ -6,6 +6,7 @@ Feature: Weather App
 
 Background: 
         Given I have a api key for weather app
+        And I have app url for weather app
 
 @scenario2
 Scenario: Find max and minimum temperature for a specific city

@@ -81,17 +81,20 @@ namespace OpenWeatherMap.Features
 #line 8
         testRunner.Given("I have a api key for weather app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 9
+        testRunner.And("I have app url for weather app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Find max and minimum temperature for a specific city", new string[] {
-                "scenario2"}, SourceLine=10)]
+                "scenario2"}, SourceLine=11)]
         public virtual void FindMaxAndMinimumTemperatureForASpecificCity()
         {
             string[] tagsOfScenario = new string[] {
                     "scenario2"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Find max and minimum temperature for a specific city", null, new string[] {
                         "scenario2"});
-#line 11
+#line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -114,13 +117,13 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
 this.FeatureBackground();
 #line hidden
-#line 12
+#line 13
        testRunner.Given("I have the weather deatils for \"Paris\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 13
+#line 14
        testRunner.Then("I print the minimum tempeature to console", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 14
+#line 15
        testRunner.And("I print the maximum temperature to console", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
